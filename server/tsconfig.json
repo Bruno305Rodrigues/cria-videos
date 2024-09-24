@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                           // Versão do JavaScript que será gerada
+    "module": "CommonJS",                         // Módulo para Node.js
+    "outDir": "./dist",                           // Diretório de saída para os arquivos compilados
+    "rootDir": "./src",                           // Diretório raiz dos arquivos de origem
+    "strict": true,                               // Habilita todas as verificações de tipo
+    "esModuleInterop": true,                      // Habilita a interoperabilidade entre módulos ES e CommonJS
+    "skipLibCheck": true,                         // Ignora a verificação de tipo em arquivos de definição de tipo
+    "forceConsistentCasingInFileNames": true     // Garante que o sistema de arquivos seja sensível a maiúsculas e minúsculas
+  },
+  "include": ["src/**/*.ts"],                     // Incluir arquivos TypeScript do diretório src
+  "exclude": ["node_modules", "dist"]            // Excluir diretório node_modules e dist
+}
